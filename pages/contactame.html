@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>contactame</title>
+    <link rel="shortcut icon" href="../imgs/favicon.png">
+</head>
+<body>
+<header>
+    <div class="cabezal">
+        <h1>Martin Samudio DCV</h1></div>
+            <h2>Docente investigador universitario</h2>
+            <h2>Egresado de la UNLP</h2>
+            <h4>Doctorando en artes latinoamericanas</h4>
+            <h4>Investigador CyT categoría V</h4>
+            <h4>Diseñador UX/UI</h4>
+            <div class="container">
+            <nav>
+                <div class="row">
+                    <ul class="nav_list">
+                    <li class="nav_items"><a href="../index.html">INICIO</li></a>
+                    <li class="nav_items"><a href="./marcas.html">MARCA</li></a>
+                    <li class="nav_items"><a href="./grafica.html">GRAFICA</li></a>
+                    <li class="nav_items"><a href="./ilustracion.html">ILUSTRACION</li></a>
+                    <li class="nav_items"><a href="./docencia.html">DOCENCIA</li></a>
+                    <li class="nav_items"><a href="#">CONTACTAME</li></a>
+                </ul>
+            </div>
+            </nav>
+        </div><section id="intro-section">
+            <h3>Puedes dejarme un mensaje o visitar mis redes sociales.</h3>
+        </section>
+</header>
+<main>
+    <form>
+    <fieldset>
+        <legend>Tus datos</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre"/>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido"/>
+        <label for="cliente">Tipo de cliente:</label>
+        <div class="tipo_cliente">
+            <label for="cliente">PyME</label>
+            <input type="radio" name="cliente" value="PyME" id="PyME">
+            <label for="cliente">Tienda Online</label>
+            <input type="radio" name="cliente" value="Tienda_online" id="Tienda_online">
+            <label for="cliente">Comerciante con local</label>
+            <input type="radio" name="cliente" value="Comerciante_con_local" id="Comerciante_con_local">
+            <label for="cliente">Músico</label>
+            <input type="radio" name="cliente" value="Músico" id="Músico">
+            <label for="cliente">Organismo no gubernamental</label>
+            <input type="radio" name="cliente" value="Organismo_no_gubernamental">
+        </div>
+        <label for="mensaje">Cuéntame qúe necesitas y déjame tu e-mail</label>
+        <textarea name="mensaje" id="mensaje" cols="117" rows="10"></textarea>
+        <input type="submit" value="enviar">
+        <p>El presupuesto del trabajo tiene una duración de 7 dias, cualquier modificación en el trabajo encargado requiere de un nuevo presupuesto.</p>
+        <p>Lo comprendo y acepto las condiciones</p><input type="checkbox" name="acepto" value="1">
+    </fieldset>
+    </form>
+</main>
+        <!--me esta trayendo problemas la cajas de textos-->
+<footer class="pie-pagina"> 
+            <a href="https://www.instagram.com/martinsamudio.dcv/" target="_blank">
+                <img src="../imgs/instagram.png" alt="logo_instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/martin-samudio-964803197/" target="_blank">
+                <img src="../imgs/linkedin.png" alt="logo_linkedin"></a>
+</footer>
+</body>
+</html>
