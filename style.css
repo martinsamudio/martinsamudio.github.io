@@ -157,6 +157,15 @@ td {
   padding: 1em 0;
   background-image: url(./imgs/fondo_footer.png);
 }
+
+@keyframes logo_animado {
+  from {
+  }
+  to {
+    transform: scale(1.1, 1.1);
+  }
+}
+
 .loguito {
   margin-top: 1rem;
   margin-left: 10rem;
