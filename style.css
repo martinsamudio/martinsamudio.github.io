@@ -158,6 +158,10 @@ td {
   background-image: url(./imgs/fondo_footer.png);
 }
 .loguito {
-  text-align: end;
-  align-items: center;
+  margin-top: 1rem;
+  margin-left: 10rem;
+  animation-name: logo_animado;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
 }
