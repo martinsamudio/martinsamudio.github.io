@@ -40,32 +40,38 @@
     <form>
     <fieldset>
         <legend>Tus datos</legend>
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre"/>
+        <div class="name">
+            <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre"/></div>
+        <div class="surname">
         <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" id="apellido"/>
+        <input type="text" name="apellido" id="apellido"/></div>
+        <div>
         <label for="cliente">Tipo de cliente:</label>
-        <div class="tipo_cliente">
-            <label for="cliente">PyME</label>
-            <input type="radio" name="cliente" value="PyME" id="PyME">
-            <label for="cliente">Tienda Online</label>
-            <input type="radio" name="cliente" value="Tienda_online" id="Tienda_online">
-            <label for="cliente">Comerciante con local</label>
-            <input type="radio" name="cliente" value="Comerciante_con_local" id="Comerciante_con_local">
-            <label for="cliente">Músico</label>
-            <input type="radio" name="cliente" value="Músico" id="Músico">
-            <label for="cliente">Organismo no gubernamental</label>
-            <input type="radio" name="cliente" value="Organismo_no_gubernamental">
+        <div class="tipo_cliente"></div>
+            <div><label for="cliente" class="client">PyME</label>
+            <input type="radio" name="cliente" value="PyME" id="PyME"></div>
+            <div>
+            <label for="cliente" class="client">Tienda Online</label>
+            <input type="radio" name="cliente" value="Tienda_online" id="Tienda_online"></div>
+            <div>
+            <label for="cliente" class="client">Comerciante con local</label>
+            <input type="radio" name="cliente" value="Comerciante_con_local" id="Comerciante_con_local"></div>
+            <div>
+            <label for="cliente" class="client">Músico</label>
+            <input type="radio" name="cliente" value="Músico" id="Músico"></div>
+            <div>
+            <label for="cliente" class="client">Organismo no gubernamental</label>
+            <input type="radio" name="cliente" value="Organismo_no_gubernamental"></div>
         </div>
-        <label for="mensaje">Cuéntame qúe necesitas y déjame tu e-mail</label>
+        <div class="cuentame"><label for="mensaje">Cuéntame qúe necesitas y déjame tu e-mail</label>
         <textarea name="mensaje" id="mensaje" cols="117" rows="10"></textarea>
-        <input type="submit" value="enviar">
+        <input type="submit" value="enviar"></div>
         <p>El presupuesto del trabajo tiene una duración de 7 dias, cualquier modificación en el trabajo encargado requiere de un nuevo presupuesto.</p>
         <p>Lo comprendo y acepto las condiciones</p><input type="checkbox" name="acepto" value="1">
     </fieldset>
     </form>
 </main>
-        <!--me esta trayendo problemas la cajas de textos-->
 <footer class="pie-pagina"> 
             <a href="https://www.instagram.com/martinsamudio.dcv/" target="_blank">
                 <img src="../imgs/instagram.png" alt="logo_instagram">

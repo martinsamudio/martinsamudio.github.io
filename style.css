@@ -145,6 +145,24 @@ td {
   display: flex;
   justify-content: left;
 }
+
+.surname {
+  margin-bottom: 1rem;
+}
+
+.tipo_cliente {
+  margin-bottom: 1em;
+}
+
+.client {
+  margin-bottom: 10em;
+}
+
+.cuentame {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .cabezal {
   position: bottom;
   text-align: center;
