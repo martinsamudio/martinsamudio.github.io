@@ -163,6 +163,15 @@ td {
   margin-bottom: 1rem;
 }
 
+.conditions {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.check {
+  margin-left: 1rem;
+}
+
 .cabezal {
   position: bottom;
   text-align: center;
