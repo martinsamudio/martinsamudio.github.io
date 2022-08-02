@@ -62,10 +62,13 @@ body {
   background-color: #141413;
   font-family: "Merriweather", serif;
 }
+
 .portfolio {
   display: grid;
   margin: 0 auto;
   text-align: center;
+  column-gap: 0.5em;
+  row-gap: 0.5em;
 }
 
 @media (min-width: 520px) {
@@ -83,10 +86,6 @@ body {
   .portfolio {
     grid-template-columns: repeat(4, 25%);
   }
-}
-
-.example {
-  padding: 3 3 3 3;
 }
 
 h2,
