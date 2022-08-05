@@ -204,6 +204,13 @@ td {
   padding: 2em 0;
   background-image: url(./imgs/fondo_footer.png);
 }
+img {
+  background: none;
+}
+.icons {
+  background: none;
+}
+
 .pie-pagina {
   position: bottom;
   text-align: center;
