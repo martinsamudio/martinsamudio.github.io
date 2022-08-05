@@ -29,6 +29,7 @@ li {
 }
 
 a {
+  color: #b8cd14;
   font-family: "Merriweather Sans", sans-serif;
   background: none;
 }
@@ -36,6 +37,10 @@ a {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.nav_color {
+  color: #b8cd14;
 }
 
 .nav_list {
@@ -63,11 +68,11 @@ a {
   width: 100%;
 }
 
-body {
+.body {
   padding-bottom: 3em;
   min-height: 100vh;
   margin: 0 auto;
-  background-color: #141413;
+  background-color: #222222;
 }
 
 .portfolio {
@@ -83,30 +88,35 @@ body {
 @media (min-width: 480px) {
   .portfolio {
     grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(12, 1fr);
   }
 }
 
 @media (min-width: 520px) {
   .portfolio {
     grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(6, 1fr);
   }
 }
 
 @media (min-width: 728px) {
   .portfolio {
     grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
   .portfolio {
     grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1720px) {
   .portfolio {
     grid-template-columns: repeat(6, 16.6%);
+    grid-template-rows: repeat(2, 1fr);
   }
 }
 
