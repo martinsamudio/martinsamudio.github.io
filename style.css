@@ -17,7 +17,7 @@ img {
 
 .container,
 .slide {
-  width: 90%;
+  width: 93%;
   margin: 0 auto;
   padding: 4rem 0 1rem 0;
   display: flex;
@@ -65,7 +65,7 @@ a:hover {
   text-align: center;
   box-sizing: content-box;
   background-image: linear-gradient(to bottom, #222222, #111111);
-  padding: 0.5rem 4rem 0.5rem 4rem;
+  padding: 0.7rem 5rem 0.7rem 5rem;
 }
 
 .nav_items:hover {
@@ -93,6 +93,13 @@ a:hover {
   text-align: center;
   column-gap: 0.5em;
   row-gap: 0.5em;
+}
+
+@media (min-width: 376px) {
+  .portfolio {
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(12, 1fr);
+  }
 }
 
 @media (min-width: 480px) {
