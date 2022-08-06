@@ -38,13 +38,13 @@ a:hover {
   color: #666;
 }
 
-.nav_color:hover {
-  color: #666;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.nav_color:hover {
+  color: #666;
 }
 
 .nav_color {
@@ -60,12 +60,12 @@ a:hover {
 .nav_items {
   font: 600 17px/30px;
   margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+  border-radius: 5px;
   flex: 1 1 30px;
-  border-width: 1px;
   text-align: center;
   box-sizing: content-box;
   background-image: linear-gradient(to bottom, #222222, #111111);
-  padding: 0 3rem 0 3rem;
+  padding: 0.5rem 4rem 0.5rem 4rem;
 }
 
 .nav_items:hover {
@@ -80,7 +80,9 @@ a:hover {
   padding-bottom: 3em;
   min-height: 100vh;
   margin: 0 auto;
-  background-color: #222222;
+}
+.cuerpo {
+  background: none;
 }
 
 .portfolio {
