@@ -65,7 +65,7 @@ a:hover {
   text-align: center;
   box-sizing: content-box;
   background-image: linear-gradient(to bottom, #222222, #111111);
-  padding: 0.7rem 5rem 0.7rem 5rem;
+  padding: 0.7rem 4rem 0.7rem 4rem;
 }
 
 .nav_items:hover {
