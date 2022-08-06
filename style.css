@@ -231,6 +231,33 @@ img {
   background: none;
 }
 
+legend {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+label,
+fieldset,
+p,
+.conditions {
+  margin-left: 3rem;
+}
+
+#mensaje,
+#nombre,
+#apellido {
+  color: #888888;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.boton_enviar {
+  margin-left: 3rem;
+  border-color: #b8cd14;
+  width: 100px;
+  height: 40px;
+}
+
 .pie-pagina {
   position: bottom;
   text-align: center;
