@@ -1,0 +1,20 @@
+{
+  "name": "sitio_profesional_martin_samudio",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u00002\u0000d\u0000a\u0000-\u0000P\u0000r\u0000e\u0000-\u0000E\u0000n\u0000t\u0000r\u0000e\u0000g\u0000a\u0000-\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinsamudio/2da-Pre-Entrega-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinsamudio/2da-Pre-Entrega-/issues"
+  },
+  "homepage": "https://github.com/martinsamudio/2da-Pre-Entrega-#readme"
+}
