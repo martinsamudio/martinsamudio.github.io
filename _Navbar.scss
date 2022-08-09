@@ -1,0 +1,27 @@
+.nav_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  flex-wrap: wrap;
+  font: 600 17px/30px;
+  margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+  border-radius: 5px;
+  flex: 1 1 30px;
+  text-align: center;
+  box-sizing: content-box;
+  background-image: linear-gradient(to bottom, #222222, #111111);
+  padding: 0.7rem 4rem 0.7rem 4rem;
+  font-weight: 600;
+  a {
+    color: #b8cd14;
+    font-family: "Merriweather Sans", sans-serif;
+    background: none;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #666;
+  }
+}
