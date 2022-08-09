@@ -1,0 +1,8 @@
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  text-align: center;
+  column-gap: 0.5em;
+  row-gap: 0.5em;
+}
