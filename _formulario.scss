@@ -20,7 +20,7 @@ fieldset {
   .boton_enviar {
     margin-left: 3rem;
     margin-bottom: 1rem;
-    color: #b8cd14;
+    color: $verde-marca;
     border-color: #666;
     font-family: Arial, Helvetica, sans-serif;
     font-variant-caps: petite-caps;
@@ -28,4 +28,8 @@ fieldset {
   .check {
     margin-left: 1rem;
   }
+}
+#nombre,
+#mensaje {
+  font-family: $tipo-sans;
 }
