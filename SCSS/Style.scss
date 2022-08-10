@@ -109,7 +109,9 @@ h3 {
 h4 {
   margin-left: 3rem;
 }
-@import "formulario" .pie-pagina {
+@import "formulario";
+
+.pie-pagina {
   position: bottom;
   text-align: center;
   bottom: 0;
