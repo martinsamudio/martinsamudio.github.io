@@ -109,39 +109,7 @@ h3 {
 h4 {
   margin-left: 3rem;
 }
-fieldset {
-  margin-left: 3rem;
-  legend {
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-  }
-  label {
-    margin-left: 2rem;
-  }
-  p,
-  .conditions {
-    margin-left: 3rem;
-  }
-  textarea {
-    color: #999999;
-  }
-  input {
-    color: #999999;
-  }
-  .boton_enviar {
-    margin-left: 3rem;
-    margin-bottom: 1rem;
-    color: #b8cd14;
-    border-color: #666;
-    font-family: Arial, Helvetica, sans-serif;
-    font-variant-caps: petite-caps;
-  }
-  .check {
-    margin-left: 1rem;
-  }
-}
-
-.pie-pagina {
+@import "formulario" .pie-pagina {
   position: bottom;
   text-align: center;
   bottom: 0;
