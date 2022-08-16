@@ -1,0 +1,24 @@
+.pie-pagina {
+  position: bottom;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  padding: 1em 0;
+  background-image: url(../imgs/fondo_footer.png);
+  a {
+    color: none;
+    background: none;
+  }
+  .icons {
+    background: none;
+  }
+}
+
+@keyframes logo_animado {
+  from {
+  }
+  to {
+    transform: scale(1.1, 1.1);
+  }
+}
