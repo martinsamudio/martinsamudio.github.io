@@ -23,5 +23,6 @@ h3 {
   font-size: 24pt;
 }
 h4 {
-  margin-left: 3rem;
+  @extend.h1;
+  color: map-get($grayscale, 100);
 }
