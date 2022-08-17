@@ -1,9 +1,10 @@
 #intro-section {
   padding: 8 rem 0 0 0;
+  font-weight: map-get ($font-weights, bold);
 }
 h2,
 h4 {
-  color: #666;
+  color: map-get($grayscale, 500);
 }
 h1 {
   text-align: left;

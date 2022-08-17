@@ -16,12 +16,12 @@ li {
   padding: 0.7rem 4rem 0.7rem 4rem;
   font-weight: 600;
   a {
-    color: $verde-marca;
+    color: map-get($grayscale, 100);
     font-family: "Merriweather Sans", sans-serif;
     background: none;
     text-decoration: none;
   }
   a:hover {
-    color: #666;
+    color: map-get($grayscale, 600);
   }
 }
