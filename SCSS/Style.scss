@@ -1,7 +1,9 @@
 @import "variables";
+@import "header";
 @import "logo";
 @import "navbar";
 @import "intro";
+@import "body";
 @import "portfolio";
 @import "formulario";
 @import "footer";
@@ -16,35 +18,6 @@
   text-decoration: none;
   color: $verde-marca;
   background-color: #141413;
-}
-
-img {
-  max-width: 100%;
-  background: none;
-}
-.cabezal {
-  position: bottom;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-  padding: 2em 0;
-  background-image: url(../imgs/fondo_footer.png);
-}
-.container,
-.slide {
-  width: 93%;
-  margin: 0 auto;
-  padding: 4rem 0 1rem 0;
-}
-
-.body {
-  padding-bottom: 3em;
-  min-height: 100vh;
-  background: none;
-}
-.cuerpo {
-  background: none;
 }
 
 @media (min-width: 376px) {
