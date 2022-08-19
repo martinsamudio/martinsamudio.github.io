@@ -24,8 +24,8 @@ fieldset {
     margin-bottom: 1rem;
     color: $verde-marca;
     border-color: #666;
-    font-family: Arial, Helvetica, sans-serif;
-    font-variant-caps: petite-caps;
+    font-family: $tipo-sans;
+    font-variant-caps: $tipo-sans;
   }
   .check {
     margin-left: 1rem;
