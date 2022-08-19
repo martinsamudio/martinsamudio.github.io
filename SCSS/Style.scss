@@ -1,3 +1,11 @@
+@import "variables";
+@import "logo";
+@import "navbar";
+@import "intro";
+@import "portfolio";
+@import "formulario";
+@import "footer";
+@import "mixins";
 * {
   margin: 0;
   padding: 0;
@@ -9,14 +17,6 @@
   color: $verde-marca;
   background-color: #141413;
 }
-@import "variables";
-@import "logo";
-@import "navbar";
-@import "intro";
-@import "portfolio";
-@import "formulario";
-@import "footer";
-@import "mixins";
 
 img {
   max-width: 100%;
