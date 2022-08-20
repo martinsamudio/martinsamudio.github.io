@@ -70,10 +70,15 @@ li {
   font-weight: 600;
 }
 li a {
+  color: #b8cd14;
   font-family: "Merriweather Sans", sans-serif;
   background: none;
   text-decoration: none;
 }
+li a:hover {
+  color: #999;
+}
+
 img {
   max-width: 100%;
   background: none;
