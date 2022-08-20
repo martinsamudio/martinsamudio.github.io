@@ -39,5 +39,5 @@ h3 {
 }
 h4 {
   @extend.h1 !optional;
-  color: map-get($grayscale, 100);
+  color: #666;
 }
