@@ -5,7 +5,8 @@ fieldset {
     margin-left: 2rem;
   }
   label {
-    margin-left: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
   }
   p,
   .conditions {
@@ -14,6 +15,9 @@ fieldset {
   textarea {
     color: #999999;
     font-family: $tipo-sans;
+    display: flex;
+    margin-left: 3rem;
+    max-width: 50%;
   }
   input {
     color: #999999;
@@ -21,17 +25,26 @@ fieldset {
   }
   .boton_enviar {
     margin-left: 3rem;
-    margin-bottom: 1rem;
-    color: $verde-marca;
-    border-color: #666;
-    font-family: $tipo-sans;
-    font-variant-caps: $tipo-sans;
+    margin-bottom: 0.5rem;
+    border-color: #b8cd14;
+    width: 100px;
+    height: 40px;
   }
   .check {
     margin-left: 1rem;
   }
 }
+#mensaje,
 #nombre,
-#mensaje {
-  font-family: $tipo-sans;
+#apellido {
+  color: #888888;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+.cuentame {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.client {
+  margin-bottom: 10em;
 }

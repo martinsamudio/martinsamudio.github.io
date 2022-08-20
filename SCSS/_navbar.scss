@@ -22,6 +22,6 @@ li {
     text-decoration: none;
   }
   a:hover {
-    color: $grayscale, 100;
+    color: map-get($grises, 100);
   }
 }
