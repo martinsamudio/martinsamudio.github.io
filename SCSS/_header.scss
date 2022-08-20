@@ -10,12 +10,16 @@
 #intro-section {
   padding: 8 rem 0 0 0;
   font-weight: map-get($font-weights, bold);
+  font-family: "Merriweather", serif;
 }
 h2,
 h4 {
   color: map-get($grayscale, 500);
+  font-family: "Merriweather", serif;
+  margin-left: 3rem;
 }
 h1 {
+  font-family: "Merriweather", serif;
   text-align: left;
   margin-left: 3rem;
   margin-top: 1rem;
@@ -23,6 +27,7 @@ h1 {
   background: none;
 }
 h2 {
+  font-family: "Merriweather", serif;
   margin-left: 3rem;
   margin-top: 0.3rem;
   margin-bottom: 0.2rem;
@@ -32,6 +37,6 @@ h3 {
   font-size: 24pt;
 }
 h4 {
-  @extend.h1;
+  @extend.h1 !optional;
   color: map-get($grayscale, 100);
 }
