@@ -1,5 +1,4 @@
 .cabezal {
-  display: flex;
   position: bottom;
   text-align: center;
   bottom: 0;
@@ -40,5 +39,5 @@ h3 {
 }
 h4 {
   @extend h1;
-  color: map-get($grises, oscuro);
+  color: map-get($map: $grises, $key: medio);
 }

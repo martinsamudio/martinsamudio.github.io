@@ -21,7 +21,7 @@ h4 {
   margin-left: 3rem;
 }
 
-h1 {
+h1, h4 {
   font-family: "Merriweather", serif;
   text-align: left;
   margin-left: 3rem;
@@ -40,10 +40,6 @@ h2 {
 h3 {
   margin: 3rem 0 0 5rem;
   font-size: 24pt;
-}
-
-h4 {
-  color: #666;
 }
 
 .loguito {
@@ -80,6 +76,10 @@ li a {
   background: none;
   text-decoration: none;
 }
+li a:hover {
+  @important;
+}
+
 img {
   max-width: 100%;
   background: none;
@@ -181,6 +181,7 @@ fieldset .check {
 .pie-pagina a {
   color: none;
   background: none;
+  text-decoration: none;
 }
 .pie-pagina .icons {
   background: none;
