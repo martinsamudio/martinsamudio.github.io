@@ -2,6 +2,14 @@ img {
   max-width: 100%;
   background: none;
 }
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  justify-content: center;
+  column-gap: 0.5em;
+  row-gap: 0.5em;
+}
 
 .container,
 .slide {

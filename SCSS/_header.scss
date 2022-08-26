@@ -42,3 +42,7 @@ h4 {
   @extend h1;
   color: #555;
 }
+.portfolio {
+  display: flex;
+  justify-content: center;
+}
