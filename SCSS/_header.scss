@@ -29,6 +29,7 @@ h1 {
 }
 h2 {
   font-family: "Merriweather", serif;
+  color: map-get($map: $grises, $key: medio) !important;
   margin-left: 3rem;
   margin-top: 0.3rem;
   margin-bottom: 0.2rem;
@@ -39,5 +40,5 @@ h3 {
 }
 h4 {
   @extend h1;
-  color: map-get($map: $grises, $key: medio);
+  color: #555;
 }

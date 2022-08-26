@@ -32,6 +32,7 @@ h1, h4 {
 
 h2 {
   font-family: "Merriweather", serif;
+  color: !important;
   margin-left: 3rem;
   margin-top: 0.3rem;
   margin-bottom: 0.2rem;
@@ -40,6 +41,10 @@ h2 {
 h3 {
   margin: 3rem 0 0 5rem;
   font-size: 24pt;
+}
+
+h4 {
+  color: #555;
 }
 
 .loguito {
@@ -77,7 +82,7 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  @important;
+  color: #555;
 }
 
 img {
