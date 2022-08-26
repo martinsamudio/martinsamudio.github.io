@@ -32,7 +32,7 @@ h1, h4 {
 
 h2 {
   font-family: "Merriweather", serif;
-  color: !important;
+  color: #555 !important;
   margin-left: 3rem;
   margin-top: 0.3rem;
   margin-bottom: 0.2rem;
@@ -45,6 +45,11 @@ h3 {
 
 h4 {
   color: #555;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
 }
 
 .loguito {
@@ -90,6 +95,15 @@ img {
   background: none;
 }
 
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  justify-content: center;
+  column-gap: 0.5em;
+  row-gap: 0.5em;
+}
+
 .container,
 .slide {
   width: 93%;
@@ -105,19 +119,6 @@ img {
 
 .cuerpo {
   background: none;
-}
-
-.portfolio {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  text-align: center;
-  column-gap: 0.5em;
-  row-gap: 0.5em;
-}
-
-.container {
-  align-items: center;
 }
 
 fieldset {
