@@ -9,6 +9,9 @@ img {
   justify-content: center;
   column-gap: 0.5em;
   row-gap: 0.5em;
+  img {
+    margin: 0 auto;
+  }
 }
 
 .container,

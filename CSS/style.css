@@ -47,11 +47,6 @@ h4 {
   color: #555;
 }
 
-.portfolio {
-  display: flex;
-  justify-content: center;
-}
-
 .loguito {
   margin-top: 1rem;
   margin-left: 10rem;
@@ -87,7 +82,7 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  color: #555;
+  color: #555 !important;
 }
 
 img {
@@ -102,6 +97,9 @@ img {
   justify-content: center;
   column-gap: 0.5em;
   row-gap: 0.5em;
+}
+.portfolio img {
+  margin: 0 auto;
 }
 
 .container,
