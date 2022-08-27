@@ -1,13 +1,15 @@
 fieldset {
-  margin-left: 2rem;
+  font-family: $tipo-sans;
+  margin-left: 3rem;
+  max-width: 900px;
   legend {
-    margin-bottom: 2rem;
-    margin-left: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
   }
   label {
     margin-left: 3rem;
-    margin-bottom: 3rem;
-    font-size: medium;
+    margin-bottom: 1rem;
   }
   p,
   .conditions {
@@ -15,14 +17,13 @@ fieldset {
   }
   textarea {
     color: #999999;
-    font-family: $tipo-sans;
     display: flex;
-    margin-left: 3rem;
-    max-width: 50%;
+    #mensaje {
+      size: 100px 50px;
+    }
   }
   input {
     color: #999999;
-    font-family: $tipo-sans;
   }
   .boton_enviar {
     margin-left: 3rem;
@@ -39,7 +40,7 @@ fieldset {
 #nombre,
 #apellido {
   color: #888888;
-  margin-left: 1rem;
+  margin-left: 2rem;
   margin-bottom: 0.5rem;
 }
 .cuentame {
@@ -47,5 +48,5 @@ fieldset {
   margin-bottom: 1rem;
 }
 .client {
-  margin-bottom: 10em;
+  margin-bottom: 0.5rem;
 }

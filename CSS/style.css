@@ -1,6 +1,5 @@
 .cabezal {
-  position: bottom;
-  text-align: center;
+  display: flex;
   bottom: 0;
   width: 100%;
   height: 100px;
@@ -14,18 +13,9 @@
   font-family: "Merriweather", serif;
 }
 
-h2,
-h4 {
-  color: #b8cd14;
-  font-family: "Merriweather", serif;
-  margin-left: 3rem;
-}
-
 h1, h4 {
   font-family: "Merriweather", serif;
   text-align: left;
-  margin-left: 3rem;
-  margin-top: 1rem;
   font-size: 30px;
   background: none;
 }
@@ -45,6 +35,13 @@ h3 {
 
 h4 {
   color: #555;
+}
+
+h2,
+h4 {
+  color: #b8cd14;
+  font-family: "Merriweather", serif;
+  margin-left: 3rem;
 }
 
 .loguito {
@@ -120,15 +117,18 @@ img {
 }
 
 fieldset {
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 3rem;
+  max-width: 900px;
 }
 fieldset legend {
-  margin-bottom: 2rem;
-  margin-left: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
 }
 fieldset label {
   margin-left: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 fieldset p,
 fieldset .conditions {
@@ -136,14 +136,13 @@ fieldset .conditions {
 }
 fieldset textarea {
   color: #999999;
-  font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  margin-left: 3rem;
-  max-width: 50%;
+}
+fieldset textarea #mensaje {
+  size: 100px 50px;
 }
 fieldset input {
   color: #999999;
-  font-family: Arial, Helvetica, sans-serif;
 }
 fieldset .boton_enviar {
   margin-left: 3rem;
@@ -160,7 +159,7 @@ fieldset .check {
 #nombre,
 #apellido {
   color: #888888;
-  margin-left: 1rem;
+  margin-left: 2rem;
   margin-bottom: 0.5rem;
 }
 
@@ -170,7 +169,7 @@ fieldset .check {
 }
 
 .client {
-  margin-bottom: 10em;
+  margin-bottom: 0.5rem;
 }
 
 .pie-pagina {
