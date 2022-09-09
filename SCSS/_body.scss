@@ -14,14 +14,15 @@ img {
   }
 }
 
-
 .container,
 .slide {
   width: 93%;
   margin: 0 auto;
   padding: 4rem 0 1rem 0;
 }
-
+#button .navbar-toggler {
+  margin-top: 3rem;
+}
 .body {
   padding-bottom: 3em;
   min-height: 100vh;
